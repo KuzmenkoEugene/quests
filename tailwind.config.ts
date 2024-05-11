@@ -8,6 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      boxShadow: {
+        'buttonShadow': '0px 2px 30px 0px rgba(254, 196, 50, 0.50)',
+      },
       backgroundImage: {
         "defaultBackground": "linear-gradient(180deg, rgba(0, 0, 0, 0.20) 72.3%, rgba(0, 0, 0, 0.00) 100%)",
         "footerBackground": "linear-gradient(180deg, rgba(19, 18, 18, 0.00) 0%, #131212 100%)",

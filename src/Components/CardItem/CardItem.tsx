@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import delimiter_icon from "../../assets/icons/delimiter.svg";
 import person_icon from "../../assets/icons/person.svg";
 import puzzle_icon from "../../assets/icons/puzzle.svg";
@@ -8,6 +9,7 @@ interface CardItemProps {
   peopleCount: string;
   level: string;
   previewImg: string;
+  id: string
 }
 
 export default function CardItem({
@@ -15,10 +17,11 @@ export default function CardItem({
   peopleCount,
   level,
   previewImg,
+  id,
 }: CardItemProps) {
   return (
     <div className="relative flex flex-col justify-end items-end w-[344px] h-[233px] pr-[30px] pb-[20px] overflow-hidden shadow-lg rounded cursor-pointer">
-      <div className="absolute inset-0">
+      <Link href={`/quests/${id}`} className="absolute inset-0">
         <Image
           className="rounded w-[auto]"
           src={`/${previewImg}`}
@@ -27,7 +30,7 @@ export default function CardItem({
           alt="Quest"
           priority={true}
         />
-      </div>
+      </Link>
       <div className="relative flex flex-col justify-end items-end gap-[15px]">
         <h2 className="text-[#FFF] text-[24px] not-italic font-bold leading-7">
           {title}

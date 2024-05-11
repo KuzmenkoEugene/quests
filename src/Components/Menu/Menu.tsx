@@ -2,7 +2,6 @@ import Link from "next/link";
 
 import { MainMenuProps } from "@/interfaces/MainMenuProps";
 
-
 export default function MainMenu({menu}: MainMenuProps) {
   return (
     <ul className="w-[464px] flex justify-between shrink-0">

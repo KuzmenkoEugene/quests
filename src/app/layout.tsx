@@ -25,7 +25,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${ralewayBlack.variable} ${ralewayBold.variable} ${ralewayExtrabold.variable} ${ralewayMedium.variable} ${ralewayRegular.variable} ${ralewaySemibold.variable} flex flex-col bg-[#1C1C1C] bg-[url('../assets/img/background.png')] w-full h-screen bg-no-repeat filter blur-15`}>
         <Header />
-        <main className="overflow-y-auto">{children}</main>
+        <main className="overflow-y-auto ">{children}</main>
         <Footer />
       </body>
     </html>

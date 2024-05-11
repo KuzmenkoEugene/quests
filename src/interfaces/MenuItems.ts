@@ -1,5 +1,5 @@
 export interface MenuItems {
   name: string;
-  engName: string;
+  engName?: string;
   href: string;
 }

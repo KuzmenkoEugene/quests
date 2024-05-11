@@ -1,23 +1,23 @@
 export const menu = [
   {
     name: "Ігри",
-    href: "./",
+    href: "../",
   },
   {
     name: "Новачкам",
-    href: "./",
+    href: "../",
   },
   {
     name: "Відгуки",
-    href: "./",
+    href: "../",
   },
   {
     name: "Акції",
-    href: "./",
+    href: "../",
   },
   {
     name: "Контакти",
-    href: "./contacts",
+    href: "../contacts",
   },
 ];
 
@@ -53,15 +53,6 @@ export const navGamesItems = [
     href: "",
   },
 ];
-
-// export const questGenres = [
-//   { icon: '/img/icons/all_quests.svg', text: 'all' },
-//   { icon: '/img/icons/adventures.svg', text: 'adventures' },
-//   { icon: '/img/icons/horror.svg', text: 'horror' },
-//   { icon: '/img/icons/mystic.svg', text: 'mystic' },
-//   { icon: '/img/icons/detective.svg', text: 'detective' },
-//   { icon: '/img/icons/sciFi.svg', text: 'sci-fi' },
-// ];
 
 export const contactInformationItems = [
   {

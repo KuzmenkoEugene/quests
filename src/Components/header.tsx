@@ -6,9 +6,9 @@ import Link from "next/link";
 
 export default function Header() {
   return (
-    <header className="w-[1366px] h-[74px] pl-[32px] pt-[16px] pb-[16px] bg-defaultBackground">
+    <header className="w-[1366px] h-[74px] pl-[32px] pt-[16px] pb-[16px] bg-defaultBackground z-30">
       <div className="flex items-center w-[1298px]">
-        <Link className="w-42px h-42px mr-[374px]" href={'./'}>
+        <Link className="w-42px h-42px mr-[374px]" href={'/'}>
           <Image
             className="w-42px h-42px"
             src={header_logo}

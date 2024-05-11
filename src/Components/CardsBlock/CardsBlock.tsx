@@ -12,8 +12,8 @@ export default function CardsBlock({ cardsBlockStyle, cards }: cardsBlockStylePr
       className={`grid grid-cols-3 gap-[21px] w-[1080px] h-[496px] shrink-0 ${cardsBlockStyle} overflow-x-auto`}
     >
         {
-            cards ? cards.map((el: { title: string; peopleCount: string; level: string; previewImg: string}) => (
-                <CardItem key={el.title} title={el.title} peopleCount={el.peopleCount} level={el.level} previewImg={el.previewImg}/>
+            cards ? cards.map((el: { title: string; peopleCount: string; level: string; previewImg: string, id: string}) => (
+                <CardItem key={el.title} title={el.title} peopleCount={el.peopleCount} level={el.level} previewImg={el.previewImg} id={el.id}/>
             )) : null
         }
     </div>

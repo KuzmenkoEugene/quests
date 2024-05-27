@@ -1,23 +1,23 @@
 export const menu = [
   {
     name: "Ігри",
-    href: "../",
+    href: "/",
   },
   {
     name: "Новачкам",
-    href: "../",
+    href: "/",
   },
   {
     name: "Відгуки",
-    href: "../",
+    href: "/",
   },
   {
     name: "Акції",
-    href: "../",
+    href: "/",
   },
   {
     name: "Контакти",
-    href: "../contacts",
+    href: "/contacts",
   },
 ];
 

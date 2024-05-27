@@ -68,7 +68,7 @@ const QuestPage: React.FC<QuestId> = ({ params }) => {
                 {cards.description}
               </p>
             </div>
-            <Button />
+            <Button id={params.id} />
           </div>
         ) : null}
       </div>
